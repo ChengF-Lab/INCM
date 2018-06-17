@@ -1,6 +1,7 @@
 The data and code for paper “Individualized genetic network analysis reveals new therapeutic tumor vulnerabilities”.
 
 The main code is INCM_Simulation_Cluster.m, which is used to calculate the INCM value. 
+
 Data Description:
 Genetic gene-gene network: 
 The raw gene-gene interaction data for 14 cancer types.
@@ -16,6 +17,7 @@ Drug-Gene interactions.
 
 Wiki Pathway validation:
 Pathway enrichment data for 14 cancer types.
+
 
 Code Description:
 INCM_Data.m    
@@ -38,6 +40,7 @@ Treat the significant result.
 
 INCM_Module.m  
 Calculate the significant module.
+
 
 It should be noted that we save and recall many intermediate results in our code for the computational complexity for this project. And we also provide the intermediate results in the folder ‘Data_mat’. 
 
